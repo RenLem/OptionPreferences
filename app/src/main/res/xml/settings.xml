@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="nickname"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Unesite nadimak"
+        android:summary="Ajd unesi!"/>
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/colorArray"
+        android:entryValues="@array/colorValues"
+        android:key="color"
+        android:title="List preference"
+        android:summary="Ajd odaberi!"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="notification"
+        android:title="Obavještavanje"
+        android:summary="Hoćeš da te obavjestim?"/>
+</PreferenceScreen>
